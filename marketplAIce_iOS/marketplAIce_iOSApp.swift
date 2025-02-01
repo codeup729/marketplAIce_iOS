@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct marketplAIce_iOSApp: App {
+    @State private var aiData = AIData()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(aiData)
         }
     }
 }
