@@ -1,2 +1,2 @@
 # AI Hub for everyone (iOS)
-Written inn SwiftUI
+Written in SwiftUI
